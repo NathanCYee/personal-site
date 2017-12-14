@@ -10,10 +10,10 @@ class Content extends Component {
         return(
             <div>
                 <Route exact path={"/"} component={Home} />
-                <Route path={"/pages/home"} component={Home} />
-                <Route path={"/pages/resume"} component={Resume} />
-                <Route path={"/pages/projects"} component={Projects} />
-                <Route path={"/pages/contact"} component={Contact} />
+                <Route path={"/personal-site/pages/home"} component={Home} />
+                <Route path={"/personal-site/pages/resume"} component={Resume} />
+                <Route path={"/personal-site/pages/projects"} component={Projects} />
+                <Route path={"/personal-site/pages/contact"} component={Contact} />
             </div>
         )
     }

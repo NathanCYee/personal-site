@@ -11,10 +11,10 @@ class Header extends Component {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <Link class="nav-item nav-link active" to={"/pages/home"}>About Me</Link>
-                            <Link class="nav-item nav-link active" to={"/pages/resume"}>Resume</Link>
-                            <Link class="nav-item nav-link active" to={"/pages/projects"}>Projects</Link>
-                            <Link class="nav-item nav-link active" to={"/pages/contact"}>Contact</Link>
+                            <Link class="nav-item nav-link active" to={"/personal-site/pages/home"}>About Me</Link>
+                            <Link class="nav-item nav-link active" to={"/personal-site/pages/resume"}>Resume</Link>
+                            <Link class="nav-item nav-link active" to={"/personal-site/pages/projects"}>Projects</Link>
+                            <Link class="nav-item nav-link active" to={"/personal-site/pages/contact"}>Contact</Link>
                         </div>
                     </div>
                 </nav>
