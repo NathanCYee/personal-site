@@ -9,7 +9,7 @@ class Content extends Component {
     render() {
         return(
             <div>
-                <Route exact path={"/"} component={Home} />
+                <Route exact path={"/personal-site/"} component={Home} />
                 <Route path={"/personal-site/pages/home"} component={Home} />
                 <Route path={"/personal-site/pages/resume"} component={Resume} />
                 <Route path={"/personal-site/pages/projects"} component={Projects} />
