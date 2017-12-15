@@ -7,7 +7,10 @@ class Contact extends Component {
             <div>
                 <div class="gradient4 jumbotron jumbotron-fluid">
                     <div class="container ">
-                        <Typist>
+                        <Typist
+                            className="Typist"
+                            cursor={{ show: false }}
+                        >
                             <span className="my-custom-class"><h1 class="display-3">Contact</h1></span>
 
                         </Typist>

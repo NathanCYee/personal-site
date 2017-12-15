@@ -5,7 +5,7 @@ class Header extends Component {
         return(
             <div>
                 <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
-                    <Link class="navbar-brand" to={"/personal-site/pages/home"}>Nathan Yee</Link>
+                    <Link class="navbar-brand" to={"/personal-site/"}>Nathan Yee</Link>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

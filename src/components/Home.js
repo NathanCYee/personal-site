@@ -1,16 +1,28 @@
 import React, { Component } from 'react';
 import Typist from 'react-typist';
+import { bounceInUp } from 'react-animations';
+import Radium, {StyleRoot} from 'radium';
 import '../index.css';
+const styles = {
+    bounceInUp: {
+        animation: 'x 1s',
+        animationName: Radium.keyframes(bounceInUp, 'bounce')
+    }
+}
 
 class Home extends Component {
     render() {
         return(
+            <StyleRoot>
             <div>
                 <div class="fillheight gradient1 jumbotron jumbotron-fluid">
-                    <center><div class="container ">
+                    <center><div class="container" style={styles.bounceInUp}>
                         <img class="logo" src={require('../logo.svg')}/>
-                        <Typist>
-                            <span className="my-custom-class"><h1 class="display-3">Hi, I'm Nathan.</h1></span>
+                        <Typist
+                            className="Typist"
+                            cursor={{ show: false }}
+                        >                            <Typist.Delay ms={5} />
+                            <h1 class="display-3">Hi, <Typist.Delay ms={500} />I'm Nathan.</h1>
                             <h2>This is my about me page</h2>
                             <p>Scroll Down</p>
                         </Typist>
@@ -37,6 +49,7 @@ class Home extends Component {
                     </div>
                 </div>
                 </div>
+            </StyleRoot>
         )
     }
 }

@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import './animate.css';
 import './bootstrap.css';
 import {
     Collapse,
@@ -17,6 +16,6 @@ import {
     Jumbotron,
     Button,
 } from 'reactstrap';
-import Router from './RouterApp';
+import RouterApp from './RouterApp';
 
-ReactDOM.render(<Router />, document.getElementById('root'));
+ReactDOM.render(<RouterApp />, document.getElementById('root'));

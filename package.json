@@ -4,7 +4,9 @@
   "private": true,
   "homepage": "https://nathancyee.github.io/personal-site/",
   "dependencies": {
+    "radium": "^0.19.6",
     "react": "^16.2.0",
+    "react-animations": "^1.0.0",
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17",

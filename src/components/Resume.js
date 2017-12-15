@@ -8,7 +8,10 @@ class Resume extends Component {
                 <div>
                     <div class="gradient3 jumbotron jumbotron-fluid">
                         <div class="container ">
-                            <Typist>
+                            <Typist
+                                className="Typist"
+                                cursor={{ show: false }}
+                            >
                                 <span className="my-custom-class"><h1 class="display-3">Resume</h1></span>
 
                             </Typist>
