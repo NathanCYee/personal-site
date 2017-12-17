@@ -1,55 +1,67 @@
 import React, { Component } from 'react';
 import Typist from 'react-typist';
-import { bounceInUp } from 'react-animations';
-import Radium, {StyleRoot} from 'radium';
+import TypistLoop from 'react-typist-loop'
+import { ArrowDown } from 'react-feather';
 import '../index.css';
-const styles = {
-    bounceInUp: {
-        animation: 'x 1s',
-        animationName: Radium.keyframes(bounceInUp, 'bounce')
-    }
-}
+import '../animate.css';
 
 class Home extends Component {
     render() {
         return(
-            <StyleRoot>
-            <div>
-                <div class="fillheight gradient1 jumbotron jumbotron-fluid">
-                    <center><div class="container" style={styles.bounceInUp}>
+            <div class="parallax">
+                <div class="fillheight parallax__layer parallax__layer--back jumbotron jumbotron-fluid">
+                    <center><div class="container animated bounceInUp">
+                        <br/>
                         <img class="logo" src={require('../logo.svg')}/>
                         <Typist
                             className="Typist"
                             cursor={{ show: false }}
-                        >                            <Typist.Delay ms={5} />
-                            <h1 class="display-3">Hi, <Typist.Delay ms={500} />I'm Nathan.</h1>
-                            <h2>This is my about me page</h2>
-                            <p>Scroll Down</p>
+                        >
+                            <h1 class="display-3">Hi, <Typist.Delay ms={50} /> I'm Nathan.</h1>
                         </Typist>
+                        <br/>
+                        <div class="animated infinite bounce"><ArrowDown size={64}></ArrowDown></div>
                         </div></center>
+                </div>
+                <div class="parallax__layer parallax__layer--base">
+                    <div class="fillheight"></div>
+                    <div class=" bg-white">
+                <div class="gradient1 jumbotron jumbotron-fluid">
+                    <div class="container ">
+                        <Typist
+                            className="Typist"
+                            cursor={{ show: false }}
+                        >
+                            <span className="my-custom-class"><h1 class="display-3">About Me</h1></span>
+
+                        </Typist>
+                    </div>
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-4">
                             <img class="image" src={require('../me.jpg')}/>
                         </div>
-                        <div class="col-9"><p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum metus sed fringilla pulvinar. Etiam vel tortor sit amet ante blandit viverra quis nec felis. Vivamus commodo, tellus non ullamcorper tristique, dolor arcu imperdiet felis, nec tincidunt libero lorem sed augue. Aliquam imperdiet bibendum libero ut feugiat. Pellentesque non lorem scelerisque, pulvinar erat eget, aliquam libero. Sed luctus quam in nisl faucibus faucibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam porta nisi vel sodales volutpat. Quisque quis cursus orci, euismod tincidunt purus. Curabitur vitae arcu non nisi feugiat pharetra. Phasellus ut tempus odio.
-
-                            Mauris ullamcorper imperdiet dolor euismod aliquam. Aliquam ut lacus non elit efficitur maximus sed vitae mi. Donec nunc est, imperdiet faucibus condimentum a, luctus id justo. Sed tempus volutpat lorem, eget pharetra tellus interdum sed. Nullam a volutpat dolor. Aenean pharetra suscipit lacinia. Duis sit amet feugiat eros. Proin at enim mauris. Vivamus gravida velit quis commodo mattis. Fusce elementum purus ut lorem ultricies maximus. Integer feugiat purus eget erat vulputate, sit amet blandit enim ornare.
-
-                            Pellentesque quis odio libero. Cras eu sollicitudin tortor. Etiam sodales purus sed pretium laoreet. Fusce vehicula purus quis metus rutrum auctor. Quisque vulputate magna mauris, in gravida sem pulvinar a. Nunc id pulvinar turpis, et volutpat nulla. Ut imperdiet ex eu fringilla pulvinar.
-
-                            Nullam euismod ultricies magna vel eleifend. Phasellus efficitur dolor nulla, nec viverra est auctor vel. Praesent hendrerit semper mattis. Duis varius aliquam dolor, et hendrerit lorem lacinia et. In posuere eros eget metus commodo eleifend. Donec imperdiet sagittis justo. Nam suscipit rutrum risus, eu dignissim dui placerat quis. Nunc iaculis, massa non laoreet viverra, dolor felis scelerisque urna, quis aliquam nibh velit non arcu. Praesent dolor nibh, scelerisque non ipsum nec, imperdiet aliquet nisl. Vestibulum vel accumsan nulla. Nullam mauris tellus, euismod convallis est non, lacinia consequat sem. Nunc facilisis sodales diam non rhoncus. Vestibulum odio libero, tincidunt quis nibh id, aliquam venenatis sapien. Mauris vulputate tellus ac tellus luctus dictum. Sed fringilla varius tortor vel blandit.
-
-                            Pellentesque feugiat condimentum quam, sed molestie libero. Nullam dictum ex vel faucibus mollis. Etiam fermentum, justo non ultricies sollicitudin, tellus tortor semper sem, in porta augue mi et erat. Proin at fermentum ante. Etiam nec justo imperdiet, tempor risus eget, ullamcorper dui. Nulla facilisis tempor mi dictum aliquet. Proin sit amet lorem id leo sodales vulputate. Morbi quis accumsan massa, ultrices porttitor ligula. Pellentesque at felis massa. Curabitur pretium ante est, id interdum lorem lobortis ac. Sed rutrum, tortor at feugiat posuere, nibh lacus vehicula risus, cursus mollis tellus lacus ac purus. Nam vestibulum euismod enim, non volutpat tortor tincidunt id. Mauris rutrum fringilla ex a consectetur. Donec lobortis est pretium est molestie, vel ornare magna viverra.
-                        </p>
+                        <div class="col-8">
+                            <h1>Hi, I’m Nathan.</h1>
+                            <h3><TypistLoop interval={3000}>
+                                {[
+                                    'Human',
+                                    'UI Aficionado',
+                                    'Computer Science Guy',
+                                    'Student'
+                                ].map(text => <Typist key={text} startDelay={1000}>I’m a <Typist.Delay ms={500} />{text}</Typist>)}
+                            </TypistLoop></h3>
+                            <p>
+                                I am currently a self taught Java certified freshman at Dublin High School with an appetite to learn, build, and perfect. My penchant to learn led me to create, and crudely host my first website five years ago in primary school using rudimentary HTML and embedded styling, within a year I was building full web apps such as forums, weather apps, and many other basic apps. A year ago I started to pick up Java SE 7 and got certified all within about six months. Currently I am learning es6 and react as well as Autodesk Inventor and Engineering techniques in my PLTW class.
+                            </p>
 
                     </div>
                     </div>
                 </div>
                 </div>
-            </StyleRoot>
+                </div>
+                </div>
         )
     }
 }

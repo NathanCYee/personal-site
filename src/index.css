@@ -1,8 +1,5 @@
-.navbar {
-    margin-bottom: 0px;
-}
 .fillheight {
-    height: 100vh;
+    min-height: 100vh;
 }
 .logo {
     width: 250px;
@@ -11,6 +8,10 @@
 .image {
     width: 100%;
     height: auto;
+}
+.align-bottom {
+    position: absolute;
+    bottom: 0;
 }
 .gradient1 {
     background: linear-gradient(270deg, #00ffbd, #0081ff);
@@ -60,4 +61,26 @@
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
+}
+.parallax {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.parallax__layer--base {
+    transform: translateZ(0);
+}
+.parallax__layer--back {
+    transform: translateZ(-1px) scale(2);
+}
+.bg-white {
+    background-color: #ffffff;
 }
