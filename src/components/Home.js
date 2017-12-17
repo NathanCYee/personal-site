@@ -46,17 +46,27 @@ class Home extends Component {
                             <h1>Hi, I’m Nathan.</h1>
                             <h3><TypistLoop interval={3000}>
                                 {[
-                                    'Human',
                                     'UI Aficionado',
-                                    'Computer Science Guy',
+                                    'Computer Science Enthusiast',
                                     'Engineer In The Making',
                                     'Student'
                                 ].map(text => <Typist key={text} startDelay={1000}>I’m a <Typist.Delay ms={500} />{text}</Typist>)}
                             </TypistLoop></h3>
                             <p>
-                                I am currently a self taught Java certified freshman at Dublin High School with an appetite to learn, build, and perfect. My penchant to learn led me to create, and crudely host my first website five years ago in primary school using rudimentary HTML and embedded styling, within a year I was building full web apps such as forums, weather apps, and many other basic apps. A year ago I started to pick up Java SE 7 and got certified all within about six months. Currently I am learning es6 and react on my own as well as Autodesk Inventor and Engineering techniques in my PLTW class.
+                                I am a freshman at Dublin High School with an appetite to learn, build, and perfect. My dream goals are to become a CTO one day; a task that involves proper management, technological, and presentational skills. I plan to get there by studying, completing personal projects, and setting personal goals through education such as a Masters in Computer Science and an MBA.
                             </p>
-
+                            <br/>
+                            <p>
+                                My penchant to learn led me to create, and crudely host my first website five years ago in elementary school using rudimentary HTML and embedded styling, within a year I was building full web apps such as forums, weather apps, and many other basic apps. A year ago I started to pick up Java SE 7 and got certified all within about six months. Currently, I am learning ES6 and react on my own as well as Autodesk Inventor and Engineering techniques in my PLTW class.
+                            </p>
+                            <br/>
+                            <p>
+                                I am currently in DECA, albeit I plan to join more clubs in the future. My strength lies in logical decision making; problem-solving, responsive UI design, and project management. I also am a quick learner, I am able to pick up whole new topics and (programming)languages in a matter of hours. I also enjoy a challenge, I find a stimulating challenge more fun than taking the easy route. No matter what, perseverance, dedication, and accomplishment are what matters to me.
+                            </p>
+                            <br/>
+                            <p>
+                                I hope you have taken what I have said into consideration. Thank you for visiting this site, please explore the rest of it.
+                            </p>
                     </div>
                     </div>
                 </div>
