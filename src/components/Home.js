@@ -49,11 +49,12 @@ class Home extends Component {
                                     'Human',
                                     'UI Aficionado',
                                     'Computer Science Guy',
+                                    'Engineer In The Making',
                                     'Student'
                                 ].map(text => <Typist key={text} startDelay={1000}>I’m a <Typist.Delay ms={500} />{text}</Typist>)}
                             </TypistLoop></h3>
                             <p>
-                                I am currently a self taught Java certified freshman at Dublin High School with an appetite to learn, build, and perfect. My penchant to learn led me to create, and crudely host my first website five years ago in primary school using rudimentary HTML and embedded styling, within a year I was building full web apps such as forums, weather apps, and many other basic apps. A year ago I started to pick up Java SE 7 and got certified all within about six months. Currently I am learning es6 and react as well as Autodesk Inventor and Engineering techniques in my PLTW class.
+                                I am currently a self taught Java certified freshman at Dublin High School with an appetite to learn, build, and perfect. My penchant to learn led me to create, and crudely host my first website five years ago in primary school using rudimentary HTML and embedded styling, within a year I was building full web apps such as forums, weather apps, and many other basic apps. A year ago I started to pick up Java SE 7 and got certified all within about six months. Currently I am learning es6 and react on my own as well as Autodesk Inventor and Engineering techniques in my PLTW class.
                             </p>
 
                     </div>

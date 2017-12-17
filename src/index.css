@@ -8,6 +8,7 @@
 .image {
     width: 100%;
     height: auto;
+    border-radius: 50%;
 }
 .align-bottom {
     position: absolute;
@@ -67,6 +68,7 @@
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
+    z-index: 0;
 }
 .parallax__layer {
     position: absolute;
@@ -83,4 +85,8 @@
 }
 .bg-white {
     background-color: #ffffff;
+}
+
+.force-top {
+    z-index: 1000;
 }

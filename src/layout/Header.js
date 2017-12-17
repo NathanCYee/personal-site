@@ -1,23 +1,60 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom'
+import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink,
+    Container,
+    Row,
+    Col,
+    Jumbotron,
+    Button,
+    UncontrolledDropdown,
+    DropdownToggle,
+    DropdownMenu,
+    DropdownItem
+} from 'reactstrap';
 class Header extends Component {
+    constructor(props) {
+        super(props);
+
+        this.toggle = this.toggle.bind(this);
+        this.state = {
+            isOpen: false
+        };
+    }
+    toggle() {
+        this.setState({
+            isOpen: !this.state.isOpen
+        });
+    }
     render() {
         return(
             <div>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-                    <Link class="navbar-brand" to={"/personal-site/"}>Nathan Yee</Link>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <Link class="nav-item nav-link active" to={"/personal-site/pages/home"}>About Me</Link>
-                            <Link class="nav-item nav-link active" to={"/personal-site/pages/resume"}>Resume</Link>
-                            <Link class="nav-item nav-link active" to={"/personal-site/pages/projects"}>Projects</Link>
-                            <Link class="nav-item nav-link active" to={"/personal-site/pages/contact"}>Contact</Link>
-                        </div>
-                    </div>
-                </nav>
+                <Navbar color="light" light expand="md" fixed="top">
+                    <NavbarBrand href="/personal-site/">Nathan Yee</NavbarBrand>
+                    <NavbarToggler onClick={this.toggle} />
+                    <Collapse isOpen={this.state.isOpen} navbar>
+                        <Nav className="ml-auto" navbar>
+                            <NavItem>
+                                <NavLink href="/personal-site/pages/home">About Me</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="/personal-site/pages/resume">Resume</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="/personal-site/pages/projects">Projects</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="/personal-site/pages/contact">Contact</NavLink>
+                            </NavItem>
+                        </Nav>
+                    </Collapse>
+                </Navbar>
             </div>
         )
     }
