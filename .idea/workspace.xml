@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a5d28e6-df18-4277-a996-cc34315131b8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/404.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/.babelrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/.eslintrc.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/.nojekyll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/CNAME" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/build/bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/components/App.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/components/Breadcrumbs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/components/ExampleComponent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/components/ExampleTwoDeepComponent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/components/Home.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/components/PageNotFound.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/styles/app.style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/styles/exampleComponent.style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/styles/exampleTwoDeepComponent.style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/styles/home.style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/styles/pageNotFound.style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/styles/style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/webpack.config.js" afterPath="" />
-    </list>
+    <list default="true" id="7a5d28e6-df18-4277-a996-cc34315131b8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -352,21 +325,21 @@
       <option name="presentableId" value="Default" />
       <updated>1513213307571</updated>
       <workItem from="1513213309070" duration="9087000" />
-      <workItem from="1513316436069" duration="9696000" />
+      <workItem from="1513316436069" duration="9831000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18783000" />
+    <option name="totallyTimeSpent" value="18918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="42" width="1260" height="712" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.48067632" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.48067632" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.51932365" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
