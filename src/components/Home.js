@@ -43,14 +43,14 @@ class Home extends Component {
                             <img class="image" src={require('../me.jpg')}/>
                         </div>
                         <div class="col-8">
-                            <h1>Hi, I’m Nathan.</h1>
+                            <h1>Hi, I am Nathan.</h1>
                             <h3><TypistLoop interval={3000}>
                                 {[
                                     'UI Aficionado',
                                     'Computer Science Enthusiast',
                                     'Engineer In The Making',
                                     'Student'
-                                ].map(text => <Typist key={text} startDelay={1000}>I’m a <Typist.Delay ms={500} />{text}</Typist>)}
+                                ].map(text => <Typist key={text} startDelay={1000}>I am a <Typist.Delay ms={500} />{text}</Typist>)}
                             </TypistLoop></h3>
                             <p>
                                 I am a freshman at Dublin High School with an appetite to learn, build, and perfect. My dream goals are to become a CTO one day; a task that involves proper management, technological, and presentational skills. I plan to get there by studying, completing personal projects, and setting personal goals through education such as a Masters in Computer Science and an MBA.
