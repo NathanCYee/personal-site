@@ -2,8 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5d28e6-df18-4277-a996-cc34315131b8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Home.js" afterPath="$PROJECT_DIR$/src/components/Home.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/404.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/.babelrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/.eslintrc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/.nojekyll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/CNAME" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/build/bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/components/App.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/components/Breadcrumbs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/components/ExampleComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/components/ExampleTwoDeepComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/components/Home.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/components/PageNotFound.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/styles/app.style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/styles/exampleComponent.style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/styles/exampleTwoDeepComponent.style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/styles/home.style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/styles/pageNotFound.style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/src/styles/style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa-github-pages/webpack.config.js" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,10 +66,60 @@
       <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/layout/Header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="43" column="73" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="73" />
+            <state relative-caret-position="126">
+              <caret line="43" column="73" lean-forward="false" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="73" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="404.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/404.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="61" lean-forward="false" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+              <folding>
+                <element signature="e#265#271#0" expanded="true" />
+                <element signature="e#271#277#0" expanded="true" />
+                <element signature="e#277#283#0" expanded="true" />
+                <element signature="e#283#289#0" expanded="true" />
+                <element signature="e#289#295#0" expanded="true" />
+                <element signature="e#295#301#0" expanded="true" />
+                <element signature="e#301#307#0" expanded="true" />
+                <element signature="e#307#313#0" expanded="true" />
+                <element signature="e#313#319#0" expanded="true" />
+                <element signature="e#319#325#0" expanded="true" />
+                <element signature="e#325#331#0" expanded="true" />
+                <element signature="e#331#337#0" expanded="true" />
+                <element signature="e#337#343#0" expanded="true" />
+                <element signature="e#344#350#0" expanded="true" />
+                <element signature="e#350#356#0" expanded="true" />
+                <element signature="e#356#362#0" expanded="true" />
+                <element signature="e#362#368#0" expanded="true" />
+                <element signature="e#368#374#0" expanded="true" />
+                <element signature="e#374#380#0" expanded="true" />
+                <element signature="e#380#386#0" expanded="true" />
+                <element signature="e#386#392#0" expanded="true" />
+                <element signature="e#392#398#0" expanded="true" />
+                <element signature="e#398#404#0" expanded="true" />
+                <element signature="e#404#410#0" expanded="true" />
+                <element signature="e#410#416#0" expanded="true" />
+                <element signature="e#416#422#0" expanded="true" />
+                <element signature="e#423#429#0" expanded="true" />
+                <element signature="e#429#435#0" expanded="true" />
+                <element signature="e#435#441#0" expanded="true" />
+                <element signature="e#441#447#0" expanded="true" />
+                <element signature="e#447#453#0" expanded="true" />
+                <element signature="e#453#459#0" expanded="true" />
+                <element signature="e#459#465#0" expanded="true" />
+                <element signature="e#465#471#0" expanded="true" />
+                <element signature="e#471#477#0" expanded="true" />
+                <element signature="e#477#483#0" expanded="true" />
+                <element signature="e#483#489#0" expanded="true" />
+                <element signature="e#489#495#0" expanded="true" />
+                <element signature="e#495#501#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,10 +167,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Home.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
+            <state relative-caret-position="363">
               <caret line="59" column="133" lean-forward="false" selection-start-line="59" selection-start-column="133" selection-end-line="59" selection-end-column="133" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -121,6 +195,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -145,6 +220,7 @@
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/layout/Header.js" />
         <option value="$PROJECT_DIR$/src/components/Home.js" />
+        <option value="$PROJECT_DIR$/build/404.html" />
       </list>
     </option>
   </component>
@@ -191,6 +267,11 @@
             <path>
               <item name="personal" type="b2602c69:ProjectViewProjectNode" />
               <item name="personal" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="personal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -223,6 +304,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -270,18 +352,17 @@
       <option name="presentableId" value="Default" />
       <updated>1513213307571</updated>
       <workItem from="1513213309070" duration="9087000" />
-      <workItem from="1513316436069" duration="9121000" />
+      <workItem from="1513316436069" duration="9696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18208000" />
+    <option name="totallyTimeSpent" value="18783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="42" width="1260" height="712" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.48067632" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.48067632" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -525,22 +606,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/layout/Header.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="43" column="73" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="73" />
+        <state relative-caret-position="363">
+          <caret line="59" column="133" lean-forward="false" selection-start-line="59" selection-start-column="133" selection-end-line="59" selection-end-column="133" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home.js">
+    <entry file="file://$PROJECT_DIR$/src/layout/Header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="59" column="133" lean-forward="false" selection-start-line="59" selection-start-column="133" selection-end-line="59" selection-end-column="133" />
+        <state relative-caret-position="126">
+          <caret line="43" column="73" lean-forward="false" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="73" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="61" lean-forward="false" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+          <folding>
+            <element signature="e#265#271#0" expanded="true" />
+            <element signature="e#271#277#0" expanded="true" />
+            <element signature="e#277#283#0" expanded="true" />
+            <element signature="e#283#289#0" expanded="true" />
+            <element signature="e#289#295#0" expanded="true" />
+            <element signature="e#295#301#0" expanded="true" />
+            <element signature="e#301#307#0" expanded="true" />
+            <element signature="e#307#313#0" expanded="true" />
+            <element signature="e#313#319#0" expanded="true" />
+            <element signature="e#319#325#0" expanded="true" />
+            <element signature="e#325#331#0" expanded="true" />
+            <element signature="e#331#337#0" expanded="true" />
+            <element signature="e#337#343#0" expanded="true" />
+            <element signature="e#344#350#0" expanded="true" />
+            <element signature="e#350#356#0" expanded="true" />
+            <element signature="e#356#362#0" expanded="true" />
+            <element signature="e#362#368#0" expanded="true" />
+            <element signature="e#368#374#0" expanded="true" />
+            <element signature="e#374#380#0" expanded="true" />
+            <element signature="e#380#386#0" expanded="true" />
+            <element signature="e#386#392#0" expanded="true" />
+            <element signature="e#392#398#0" expanded="true" />
+            <element signature="e#398#404#0" expanded="true" />
+            <element signature="e#404#410#0" expanded="true" />
+            <element signature="e#410#416#0" expanded="true" />
+            <element signature="e#416#422#0" expanded="true" />
+            <element signature="e#423#429#0" expanded="true" />
+            <element signature="e#429#435#0" expanded="true" />
+            <element signature="e#435#441#0" expanded="true" />
+            <element signature="e#441#447#0" expanded="true" />
+            <element signature="e#447#453#0" expanded="true" />
+            <element signature="e#453#459#0" expanded="true" />
+            <element signature="e#459#465#0" expanded="true" />
+            <element signature="e#465#471#0" expanded="true" />
+            <element signature="e#471#477#0" expanded="true" />
+            <element signature="e#477#483#0" expanded="true" />
+            <element signature="e#483#489#0" expanded="true" />
+            <element signature="e#489#495#0" expanded="true" />
+            <element signature="e#495#501#0" expanded="true" />
           </folding>
         </state>
       </provider>
