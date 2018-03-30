@@ -9,6 +9,8 @@
     "react-animations": "^1.0.0",
     "react-dom": "^16.2.0",
     "react-feather": "^1.0.7",
+    "react-parallax-card": "^0.5.7",
+    "react-popper": "^0.8.3",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17",
     "react-typist": "^2.0.4",
