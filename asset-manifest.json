@@ -1,12 +1,20 @@
 {
-  "main.css": "static/css/main.f6b29583.css",
-  "main.css.map": "static/css/main.f6b29583.css.map",
-  "main.js": "static/js/main.c09ccadc.js",
-  "main.js.map": "static/js/main.c09ccadc.js.map",
+  "main.css": "static/css/main.9e1a9bec.css",
+  "main.css.map": "static/css/main.9e1a9bec.css.map",
+  "main.js": "static/js/main.fc9662bf.js",
+  "main.js.map": "static/js/main.fc9662bf.js.map",
+  "static/js/0.02abaee1.chunk.js": "static/js/0.02abaee1.chunk.js",
+  "static/js/0.02abaee1.chunk.js.map": "static/js/0.02abaee1.chunk.js.map",
+  "static/js/1.b697407e.chunk.js": "static/js/1.b697407e.chunk.js",
+  "static/js/1.b697407e.chunk.js.map": "static/js/1.b697407e.chunk.js.map",
   "static/media/6.png": "static/media/6.ea957a98.png",
   "static/media/7.png": "static/media/7.806bd7ca.png",
   "static/media/Image.png": "static/media/Image.8200e5d2.png",
+  "static/media/appfin.svg": "static/media/appfin.61139479.svg",
+  "static/media/blue-yellow.svg": "static/media/blue-yellow.96f73bd3.svg",
+  "static/media/diagram.svg": "static/media/diagram.aca617c1.svg",
   "static/media/logo.svg": "static/media/logo.635793a1.svg",
   "static/media/me.jpg": "static/media/me.45f12bfb.jpg",
-  "static/media/purple-paper.jpg": "static/media/purple-paper.d8f276b9.jpg"
+  "static/media/purple-paper.jpg": "static/media/purple-paper.d8f276b9.jpg",
+  "static/media/questionmark.gif": "static/media/questionmark.d6ede689.gif"
 }
