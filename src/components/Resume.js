@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Typist from 'react-typist';
+import Iframe from 'react-iframe'
 
 class Resume extends Component {
     render() {
@@ -16,6 +17,18 @@ class Resume extends Component {
 
                             </Typist>
                         </div>
+                    </div>
+                    <div>
+                        <center><Iframe url="https://nathancyee.github.io/personal-site/NathanYeeResume.pdf"
+                                width="450px"
+                                height="800px"
+                                id="myId"
+                                className="myClassname"
+                                display="initial"
+                                position="relative"
+                                allowFullScreen/>
+                            <h3>Google Doc: <a href={"https://docs.google.com/document/d/1gCj-zVEu58vG_AI_c-CGPqUe1UUBO3z7W18x0vH8H78/edit?usp=sharing"}>https://docs.google.com/document/d/1gCj-zVEu58vG_AI_c-CGPqUe1UUBO3z7W18x0vH8H78/edit?usp=sharing</a></h3>
+                        </center>
                     </div>
                 </div>
             </div>

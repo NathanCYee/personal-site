@@ -15,6 +15,14 @@ class Contact extends Component {
 
                         </Typist>
                     </div>
+
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            You can contact me at my email, yee.nathan.c@gmail.com, I get alerts on my watch and usually try to respond by the end of day
+                        </div>
+                    </div>
                 </div>
             </div>
         )

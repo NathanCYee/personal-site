@@ -18,6 +18,8 @@ class Projects extends Component {
                         </Typist>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-6">
                 <Link class="nav-item nav-link" to={"/personal-site/projects/train"}>
                 <ParallaxCard
                     label='Virtual Toy Train'
@@ -37,6 +39,29 @@ class Projects extends Component {
 
                 </ParallaxCard>
                 </Link>
+                    </div>
+                    <div class="col-6">
+                <Link class="nav-item nav-link" to={"/personal-site/projects/appfin"}>
+                    <ParallaxCard
+                        label='Entrepreneurship Project'
+                        enableRotate
+                        enableTransform
+                        style={{ margin: '0 auto', width: 400, height: 275 }}>
+
+                        <img src={require('../blue-yellow.svg')} style={{ maxWidth: '120%', maxHeight: '120%' }} />
+
+                        <div /><div /><div />
+
+                        <img src={require('../appfin.svg')} style={{ top: '-20%', left: '20%', maxWidth: '130%', maxHeight: '130%'}} />
+
+                        <p style={{ fontSize: '3rem', fontWeight: 'bold', padding: '3rem' }}>
+                            AppFin
+                        </p>
+
+                    </ParallaxCard>
+                </Link>
+                    </div>
+                </div>
             </div>
         )
     }

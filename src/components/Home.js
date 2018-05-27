@@ -57,11 +57,11 @@ class Home extends Component {
                             </p>
                             <br/>
                             <p>
-                                My penchant to learn led me to create, and crudely host my first website five years ago in elementary school using rudimentary HTML and embedded styling, within a year I was building full web apps such as forums, weather apps, and many other basic apps. A year ago I started to pick up Java SE 7 and got certified all within about six months. Currently, I am learning ES6 and react on my own as well as Autodesk Inventor and Engineering techniques in my PLTW class.
+                                My penchant to learn led me to create, and crudely host my first website five years ago in elementary school using rudimentary HTML and embedded styling, within a year I was building full web apps such as forums, weather apps, and many other basic apps. A year ago I started to pick up Java SE 7 and got certified all within about six months. Currently, I am learning ES6 and react on my own as well as Autodesk Inventor and Engineering techniques in my PLTW class. I am also currently in the Engineering Academy under the Computer Science pathway in my school. As of December 26, 2016 I am a SE 7 Java certified Associate, and as of May 14, 2018 I am also an Autodesk Inventor Certified User.
                             </p>
                             <br/>
                             <p>
-                                I am currently in DECA, albeit I plan to join more clubs in the future. My strength lies in logical decision making; problem-solving, responsive UI design, and project management. I also am a quick learner, I am able to pick up whole new topics and (programming)languages in a matter of hours. I also enjoy a challenge, I find a stimulating challenge more fun than taking the easy route. No matter what, perseverance, dedication, and accomplishment are what matters to me.
+                                I plan to join some engineering clubs in the future such as robotics or coding. My strength lies in logical decision making; problem-solving, responsive UI design, and project management. I also am a quick learner, I am able to pick up whole new topics and (programming)languages in a matter of hours. I also enjoy a challenge, I find a stimulating challenge more fun than taking the easy route. No matter what, perseverance, dedication, and accomplishment are what matters to me.
                             </p>
                             <br/>
                             <p>
