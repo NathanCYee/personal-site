@@ -53,19 +53,27 @@ class Home extends Component {
                                 ].map(text => <Typist key={text} startDelay={1000}>I am a <Typist.Delay ms={500} />{text}</Typist>)}
                             </TypistLoop></h3>
                             <p>
-                                I am a freshman at Dublin High School with an appetite to learn, build, and perfect. My dream goals are to become a CTO one day; a task that involves proper management, technological, and presentational skills. I plan to get there by studying, completing personal projects, and setting personal goals through education such as a Masters in Computer Science and an MBA.
+                                Hello, my name is Nathan Yee. I am a Sophomore at Dublin High School that is currently in the computer science pathway of the school’s engineering academy. My interests are software engineering, UI design, and computer science. I am a SE 7 Java Certified Associate as well as and Autodesk Inventor Certified User.
                             </p>
                             <br/>
                             <p>
-                                My penchant to learn led me to create, and crudely host my first website five years ago in elementary school using rudimentary HTML and embedded styling, within a year I was building full web apps such as forums, weather apps, and many other basic apps. A year ago I started to pick up Java SE 7 and got certified all within about six months. Currently, I am learning ES6 and react on my own as well as Autodesk Inventor and Engineering techniques in my PLTW class. I am also currently in the Engineering Academy under the Computer Science pathway in my school. As of December 26, 2016 I am a SE 7 Java certified Associate, and as of May 14, 2018 I am also an Autodesk Inventor Certified User.
+                                I am self-taught in Python, Java, HTML, CSS, SQL, and React. Whenever I find something interesting I would pursue it. My first experience with learning how to code was when I discovered how to make a website when I was 9, I learned new components by reading documentation on HTML. When I was 10, I self taught myself python and was able to transfer those skills to other languages such as java.
                             </p>
                             <br/>
                             <p>
-                                I plan to join some engineering clubs in the future such as robotics or coding. My strength lies in logical decision making; problem-solving, responsive UI design, and project management. I also am a quick learner, I am able to pick up whole new topics and (programming)languages in a matter of hours. I also enjoy a challenge, I find a stimulating challenge more fun than taking the easy route. No matter what, perseverance, dedication, and accomplishment are what matters to me.
+                                Currently I am in the Principals of Engineering course offered by my school. The course is a  Project Lead The Way course. In my freshman year I completed the Introduction to Engineering and Design course.
                             </p>
                             <br/>
                             <p>
-                                I hope you have taken what I have said into consideration. Thank you for visiting this site, please explore the rest of it.
+                                As of Fall 2018 I am also attending Las Positas for a Computer Science course, I plan to attend a UC after graduation so that I can study Computer Science, attending a UC would help build my knowledge of computers further than what I am already capable of so that I can know how to make applications that are far more functional and fast than what I can do now.
+                            </p>
+                            <br/>
+                            <p>
+                                I want to make the world better, faster, and safer with software. Software has increased global trade and connected people across the world. But technology is an ever evolving thing, and new innovations that make daily actions faster and more efficient are very exciting.
+                            </p>
+                            <br/>
+                            <p>
+                                Thanks for visiting my site. View some of my projects on the project tab. My resume can be viewed on the resume tab. My contact information is available on the contact tab.
                             </p>
                     </div>
                     </div>

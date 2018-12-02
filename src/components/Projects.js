@@ -19,48 +19,81 @@ class Projects extends Component {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-6">
-                <Link class="nav-item nav-link" to={"/personal-site/projects/train"}>
-                <ParallaxCard
-                    label='Virtual Toy Train'
-                    enableRotate
-                    enableTransform
-                    style={{ margin: '0 auto', width: 400, height: 275 }}>
+                    <div className="col-6">
+                        <Link class="nav-item nav-link" to={"/personal-site/projects/shvehicle"}>
+                            <ParallaxCard
+                                label='Solar Hydrogen Vehicle'
+                                enableRotate
+                                enableTransform
+                                style={{margin: '0 auto', width: 400, height: 300}}>
 
-                    <img src={require('../purple-paper.jpg')} style={{ maxWidth: '100%', maxHeight: '100%' }} />
+                                <img src={require('../IMG_3668.JPG')}
+                                     style={{maxWidth: "100%", maxHeight: "100%"}}/>
 
-                    <div /><div /><div />
+                                <div/>
+                                <div/>
 
-                    <img src={require('../7.png')} style={{ top: '20%', left: '30%', maxWidth: '90%', maxHeight: '90%'}} />
 
-                    <p style={{ fontSize: '3rem', fontWeight: 'bold', padding: '3rem' }}>
-                        Virtual Train
-                    </p>
+                                <p style={{fontSize: '3rem', fontWeight: 'bold', padding: '3rem'}}>
+                                    Vehicle
+                                </p>
 
-                </ParallaxCard>
-                </Link>
+                            </ParallaxCard>
+                        </Link>
                     </div>
-                    <div class="col-6">
-                <Link class="nav-item nav-link" to={"/personal-site/projects/appfin"}>
-                    <ParallaxCard
-                        label='Entrepreneurship Project'
-                        enableRotate
-                        enableTransform
-                        style={{ margin: '0 auto', width: 400, height: 275 }}>
+                    <div className="col-6">
+                        <Link class="nav-item nav-link" to={"/personal-site/projects/appfin"}>
+                            <ParallaxCard
+                                label='Entrepreneurship Project'
+                                enableRotate
+                                enableTransform
+                                style={{margin: '0 auto', width: 400, height: 300}}>
 
-                        <img src={require('../blue-yellow.svg')} style={{ maxWidth: '120%', maxHeight: '120%' }} />
+                                <img src={require('../blue-yellow.svg')} style={{maxWidth: '120%', maxHeight: '120%'}}/>
 
-                        <div /><div /><div />
+                                <div/>
+                                <div/>
+                                <div/>
 
-                        <img src={require('../appfin.svg')} style={{ top: '-20%', left: '20%', maxWidth: '130%', maxHeight: '130%'}} />
+                                <img src={require('../appfin.svg')}
+                                     style={{top: '-20%', left: '20%', maxWidth: '130%', maxHeight: '130%'}}/>
 
-                        <p style={{ fontSize: '3rem', fontWeight: 'bold', padding: '3rem' }}>
-                            AppFin
-                        </p>
+                                <p style={{fontSize: '3rem', fontWeight: 'bold', padding: '3rem'}}>
+                                    AppFin
+                                </p>
 
-                    </ParallaxCard>
-                </Link>
+                            </ParallaxCard>
+                        </Link>
                     </div>
+
+                    </div>
+                <br></br>
+                <div className="row">
+                    <div className="col-6">
+                        <Link class="nav-item nav-link" to={"/personal-site/projects/train"}>
+                            <ParallaxCard
+                                label='Virtual Toy Train'
+                                enableRotate
+                                enableTransform
+                                style={{margin: '0 auto', width: 400, height: 300}}>
+
+                                <img src={require('../purple-paper.jpg')}
+                                     style={{maxWidth: '100%', maxHeight: '100%'}}/>
+
+                                <div/>
+                                <div/>
+                                <div/>
+
+                                <img src={require('../7.png')}
+                                     style={{top: '20%', left: '30%', maxWidth: '90%', maxHeight: '90%'}}/>
+
+                                <p style={{fontSize: '3rem', fontWeight: 'bold', padding: '3rem'}}>
+                                    Virtual Train
+                                </p>
+
+                            </ParallaxCard>
+                        </Link>
+                </div>
                 </div>
             </div>
         )

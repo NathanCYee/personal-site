@@ -14,8 +14,8 @@ class Train extends Component {
                 <div class="fillheight parallax__layer parallax__layer--back jumbotron jumbotron-fluid">
                     <center><div class="container animated fadeIn">
                         <img src={require('../7.png')}/>
-                        <h1 class="display-3"  style={{fontWeight: 'bold'}}>Virtual Toy Train</h1>
-                        <div><h5><Badge color="secondary" id="class">Introduction to Engineering and Design</Badge> <Badge color="secondary">~1 Month(February 2018)</Badge></h5></div>
+                        <h1 class="display-3"  style={{fontWeight: 'bold'}}>Solar Hydrogen Vehicle</h1>
+                        <div><h5><Badge color="secondary" id="class">Principals of Engineering</Badge> <Badge color="secondary">2 Weeks(November 2018)</Badge></h5></div>
                     </div>
 			<br/>
 			<div class="animated infinite bounce"><ArrowDown size={64}></ArrowDown></div>

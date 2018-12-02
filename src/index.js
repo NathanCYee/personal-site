@@ -18,7 +18,8 @@ import {
     UncontrolledDropdown,
     DropdownToggle,
     DropdownMenu,
-    DropdownItem
+    DropdownItem,
+    Table
 } from 'reactstrap';
 import RouterApp from './RouterApp';
 
