@@ -27,7 +27,7 @@ class Resume extends Component {
                                 display="initial"
                                 position="relative"
                                 allowFullScreen/>
-                            <h3>Google Doc: <a href={"https://docs.google.com/document/d/1gCj-zVEu58vG_AI_c-CGPqUe1UUBO3z7W18x0vH8H78/edit?usp=sharing"}>https://docs.google.com/document/d/1gCj-zVEu58vG_AI_c-CGPqUe1UUBO3z7W18x0vH8H78/edit?usp=sharing</a></h3>
+                            <h3>Google Doc: <a href={"https://docs.google.com/document/d/1eIaMHTJQr83DxDApHRmXbUdPWSnDEcRCUzeXaRRUM_s/edit?usp=sharing"}>https://docs.google.com/document/d/1eIaMHTJQr83DxDApHRmXbUdPWSnDEcRCUzeXaRRUM_s/edit?usp=sharing</a></h3>
                         </center>
                     </div>
                 </div>

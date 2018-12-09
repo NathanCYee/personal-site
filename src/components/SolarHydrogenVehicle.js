@@ -13,9 +13,8 @@ class Train extends Component {
             <div class="parallax">
                 <div class="fillheight parallax__layer parallax__layer--back jumbotron jumbotron-fluid">
                     <center><div class="container animated fadeIn">
-                        <img src={require('../7.png')}/>
                         <h1 class="display-3"  style={{fontWeight: 'bold'}}>Solar Hydrogen Vehicle</h1>
-                        <div><h5><Badge color="secondary" id="class">Principals of Engineering</Badge> <Badge color="secondary">2 Weeks(November 2018)</Badge></h5></div>
+                        <div><h5><Badge color="secondary" id="class">Principles of Engineering</Badge> <Badge color="secondary">2 Weeks(November 2018)</Badge></h5></div>
                     </div>
 			<br/>
 			<div class="animated infinite bounce"><ArrowDown size={64}></ArrowDown></div>
@@ -32,25 +31,41 @@ class Train extends Component {
                         <div class="container">
                             <div class="row">
                                 <div class="col-12">
-                                    <p>&nbsp;&nbsp;Our <a href="https://docs.google.com/document/d/1Lm6g20Aw3X_zfPnGFT_-cV9lihPVdb4zSXiWi0OV0Ls/edit?usp=sharing">instruction</a> for this train project was to create a virtual toy train that appeals to children by allowing to download, create, and customize their own toy train. We took the virtue of creation and customization and turned to our favourite childhood toy-building blocks. The building blocks allowed near infinite customizability and promoted good engineering, and design to us and children who would use the product.</p>
-                                    <center>
-                                        <img src={require('../6.png')} style={{ maxWidth: '60%', maxHeight: '60%' }}/>
-                                        <p style={{fontSize: '.5rem', color:'#adadad'}}>The train container used on the train, each piece seen is an individual piece that was fully grounded</p>
-                                    </center>
-                                    <p>&nbsp;&nbsp;The peg and hole design would be easy to make and a perfect project to practice parametric modeling, and with train cars being modeled with hundreds of unique pieces, this was important to be able to scale bricks from 1x1 to 6x28. As well as inventor tools such as mirror and pattern to cut creation time in half. With a project that has over 500 parts, members of our group had to manage their responsibilities, teamwork, backups, and check ins were important to ensure the product was able work by the due date as well as to make decisions that conformed with the design guidelines and limitations. </p>
-                                </div>
+                                    <p>&nbsp;&nbsp;For the <a href={"https://docs.google.com/document/d/1JFcg1FzFN4Z6ugxkeM5CzB_pVhNAoD8DKrtY6KdwOMk/edit"}>project</a>, our goal was to make a vehicle that was able to utilize either hydrogen fuel cells or solar cells in order to understand the upsides and downsides for each power source. The entire process of brainstorming to building was to be documented and the most efficient car received bonus points.
+                                    </p>
+                                    </div>
                             </div>
                             <div class="row">
-                                <h2>Rendering</h2>
+                                <h2>Final Design</h2>
                             </div>
                             <div class="row">
-                                <div class="col-6">
-                                    For professional renders, inventor studio was used to place the train into environments that seemed fit-such as a lego track or space. These renders could be used as boxart, promotional materials, or even media used for our slides as we had done. Videos were also rendered to feature the minutiae parts of the train in motion, such as moving wheels, interior details, and the train driving.
+                                <div class="col-12">
+                                    Our final design utilized the lightest parts possible in order to reduce the mass that the motor had to move. We used flat metal vex parts on the top and standoffs and pillow blocks to mount the wheels. The flat metal pieces had extra screw points which allowed us to mount a standoff for hydrogen or collars and axles to mount solar, making the vehicle a flexible testbed. A gear ratio of 7:3 was implemented so that the wheel could output an optimal speed as well as due to size constraints.
                                 </div>
                                 <div class="col-6">
-                                    <img src={require('../Image.png')} style={{ maxWidth: '100%', maxHeight: '100%' }}/>
+                                    <img src={require('../IMG_3600.JPG')} style={{ maxWidth: '100%', maxHeight: '100%' }}/>
+                                    <p style={{fontSize: '.5rem', color:'#adadad'}}>The final design with the gear ratio showcased and the solar panel mounting bracket attatched</p>
+                                </div>
+                                <div className="col-6">
+                                    <img src={require('../IMG_3571.JPG')}
+                                         style={{maxWidth: '100%', maxHeight: '100%'}}/>
+                                    <p style={{fontSize: '.5rem', color:'#adadad'}}>The hydrogen mounting solution attatched.</p>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <h2>Project Role</h2>
+                            </div>
+                            <div className="row">
+                                <div className="col-6">
+                                    My task in the project was the project manager, I had to create and share the files as well as submit them to Ms. Chou for grading. For the tracking of team progress, I created a gantt chart which detailed our optimal goals for the day as well as who did them. Since the list was only updated a few times per day, I also assisted in building the vehicle as well as recording tests.
 
                                 </div>
+                                <div className="col-6">
+                                    <img src={require('../Screen Shot 2018-12-08 at 5.27.43 PM.png')}
+                                         style={{maxWidth: '100%', maxHeight: '100%'}}/>
+                                    <p style={{fontSize: '.5rem', color: '#adadad'}}>The Gantt chart that we used</p>
+                                </div>
+
                             </div>
                         </div>
                         <br/>
