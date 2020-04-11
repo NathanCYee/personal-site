@@ -94,6 +94,29 @@ class Projects extends Component {
                             </ParallaxCard>
                         </Link>
                 </div>
+
+                    <div className="col-6">
+                        <Link class="nav-item nav-link" to={"/personal-site/projects/winch"}>
+                            <ParallaxCard
+                                label='Winch'
+                                enableRotate
+                                enableTransform
+                                style={{margin: '0 auto', width: 400, height: 300}}>
+
+                                <img src={require('../IMG_2568.JPG')}
+                                     style={{maxWidth: "100%", maxHeight: "100%"}}/>
+
+                                <div/>
+                                <div/>
+
+
+                                <p style={{fontSize: '3rem', fontWeight: 'bold', padding: '3rem'}}>
+                                    Winch
+                                </p>
+
+                            </ParallaxCard>
+                        </Link>
+                    </div>
                 </div>
             </div>
         )

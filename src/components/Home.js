@@ -46,41 +46,41 @@ class Home extends Component {
                             <h1>Hi, I am Nathan.</h1>
                             <h3><TypistLoop interval={3000}>
                                 {[
-                                    'UI Aficionado',
+                                    'Avid UI Designer',
                                     'Computer Science Enthusiast',
                                     'Engineer In The Making',
                                     'Student'
                                 ].map(text => <Typist key={text} startDelay={1000}>I am a <Typist.Delay ms={500} />{text}</Typist>)}
                             </TypistLoop></h3>
                             <p>
-                                Hello, my name is Nathan Yee. I am a Sophomore at Dublin High School that is currently in the computer science pathway of the school’s engineering academy. My interests are software engineering, UI design, and computer science. I am a SE 7 Java Certified Associate as well as and Autodesk Inventor Certified User.
+                                Hello, my name is Nathan Yee. I am a Junior at Dublin High School, and a student at Diablo Valley College and Las Positas College, and I am currently in the computer science pathway of the school’s engineering academy. My interests are software engineering, UI design, and computer science. I am a SE 7 Java Certified Associate as well as and Autodesk Inventor Certified User.
                             </p>
                             <br/>
                             <p>
-                                I am self-taught in Python, Java, HTML, CSS, SQL, and React. Whenever I find something interesting I would pursue it. My first experience with learning how to code was when I discovered how to make a website when I was 9, I learned new components by reading documentation on HTML. When I was 10, I self taught myself python and was able to transfer those skills to other languages such as java.
+                                I am self-taught in Python, C++, Java, HTML, CSS, SQL, and React. Whenever I find something interesting I would pursue it. My first experience with learning how to code was when I discovered how to make a website when I was 9, I learned new components by reading documentation on HTML. When I was 10, I self taught myself python and was able to transfer those skills to other languages such as java.
                             </p>
                             <br/>
                             <p>
-                                Currently I am in the Principals of Engineering course offered by my school. The course is a  Project Lead The Way course. In my freshman year I completed the Introduction to Engineering and Design course.
+                                Currently I am in the Cybersecurity course offered by my school. The course is a  Project Lead The Way course. In my freshman year I completed the Introduction to Engineering and Design course - which taught CAD (Computer Aided Design). In my sophomore year I completed the Principles of Engineering course - which taught aspects of electrical and mechanical engineering as well as project management techniques.
                             </p>
                             <br/>
                             <p>
-                                As of Fall 2018 I am also attending Las Positas for a Computer Science course, I plan to attend a UC after graduation so that I can study Computer Science, attending a UC would help build my knowledge of computers further than what I am already capable of so that I can know how to make applications that are far more functional and fast than what I can do now.
+                                As of Fall 2018 I am also attending Las Positas College and Diablo Valley College for Computer Science courses, I plan to attend a UC after graduation so that I can study Computer Science, attending a UC would help build my knowledge of computers further than what I am already capable of so that I can know how to make applications that are more functional and more efficient.
                             </p>
                             <br/>
                             <p>
-                                I want to make the world better, faster, and safer with software. Software has increased global trade and connected people across the world. But technology is an ever evolving thing, and new innovations that make daily actions faster and more efficient are very exciting.
+                                My goal is to take advantage of new and upcoming technologies to help create new technologies with a team of like minded people. Software has always been a great passion of mine and I would love to work with people who share the same passion and creativity.
                             </p>
                             <br/>
                             <p>
                                 Thanks for visiting my site. View some of my projects on the project tab. My resume can be viewed on the resume tab. My contact information is available on the contact tab.
                             </p>
+                        </div>
                     </div>
-                    </div>
                 </div>
                 </div>
                 </div>
-                </div>
+            </div>
         )
     }
 }

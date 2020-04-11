@@ -47,6 +47,9 @@ class Header extends Component {
                                 <Link class="nav-item nav-link" to={"/personal-site/pages/resume"}>Resume</Link>
                             </NavItem>
                             <NavItem>
+                                <Link class="nav-item nav-link" to={"/personal-site/pages/work"}>Work Experience</Link>
+                            </NavItem>
+                            <NavItem>
                                 <Link class="nav-item nav-link" to={"/personal-site/pages/projects"}>Projects</Link>
                             </NavItem>
                             <NavItem>
