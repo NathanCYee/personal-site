@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5d28e6-df18-4277-a996-cc34315131b8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/build/NathanYeeResume2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/IMG_0881.fc8fef4e.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/IMG_0890.61eaa9d9.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/IMG_1131.f3dca6f2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/IMG_2568.b67363f5.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/NathanYeeResume2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IMG_0881.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IMG_0890.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IMG_1131.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IMG_2568.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Winch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/WorkExperience.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/NathanYeeResume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/build/NathanYeeResume.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.9e1a9bec.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/css/main.9e1a9bec.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.1f54ce49.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.1f54ce49.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/me.45f12bfb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/NathanYeeResume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/NathanYeeResume.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NathanYeeResume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NathanYeeResume.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Resume.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/me.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +25,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -121,18 +92,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -174,25 +133,28 @@
       <workItem from="1586109940249" duration="273000" />
       <workItem from="1586536056674" duration="47000" />
       <workItem from="1586536139392" duration="1480000" />
-      <workItem from="1586563668571" duration="1010000" />
+      <workItem from="1586563668571" duration="1281000" />
+      <workItem from="1586681502587" duration="1011000" />
+      <workItem from="1587971594496" duration="95000" />
+      <workItem from="1590307393214" duration="69000" />
+      <workItem from="1590307491431" duration="200000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1241" height="176" key="GridCell.Tab.0.bottom" timestamp="1586558249966">
@@ -211,9 +173,10 @@
       <screen x="0" y="23" width="1280" height="752" />
     </state>
     <state width="1241" height="176" key="GridCell.Tab.0.right/-322.-1057.1920.1057/0.23.1280.752@0.23.1280.752" timestamp="1586558249965" />
-    <state x="141" y="38" key="SettingsEditor" timestamp="1586536104758">
+    <state x="141" y="38" key="SettingsEditor" timestamp="1590307465018">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
+    <state x="141" y="38" key="SettingsEditor/-320.-1057.1920.1057/0.23.1280.752@0.23.1280.752" timestamp="1590307465018" />
     <state x="141" y="38" key="SettingsEditor/-322.-1057.1920.1057/0.23.1280.752@0.23.1280.752" timestamp="1586536104758" />
   </component>
 </project>
