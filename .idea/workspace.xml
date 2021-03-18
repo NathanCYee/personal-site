@@ -19,32 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5d28e6-df18-4277-a996-cc34315131b8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/build/precache-manifest.c74b4abaeed40dcf92401ad8dbb76645.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.5811a5f3.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.5811a5f3.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BBB.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOW.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/BBB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Net.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lynx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/net_diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wireshark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zenmap.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/precache-manifest.63f0cdacf796281e71bc8c4c5236ac17.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.12ea3e97.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.12ea3e97.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Content.js" afterDir="false" />
-    </list>
+    <list default="true" id="7a5d28e6-df18-4277-a996-cc34315131b8" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,6 +48,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -199,6 +175,7 @@
       <workItem from="1612658904365" duration="4000" />
       <workItem from="1615760462907" duration="4422000" />
       <workItem from="1616042006133" duration="984000" />
+      <workItem from="1616043972739" duration="350000" />
     </task>
     <servers />
   </component>
