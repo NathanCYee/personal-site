@@ -5,16 +5,17 @@
   "homepage": "https://nathancyee.github.io/personal-site/",
   "dependencies": {
     "radium": "^0.19.6",
-    "react": "^16.2.0",
+    "react": "^17.0.1",
     "react-animations": "^1.0.0",
-    "react-dom": "^16.13.1",
+    "react-dom": "^16.2.0",
     "react-feather": "^1.0.7",
+    "react-google-slides": "^3.0.1",
     "react-iframe": "^1.8.0",
     "react-inline-css": "^2.3.1",
     "react-parallax-card": "^0.5.7",
     "react-popper": "^0.8.3",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "^3.4.1",
+    "react-scripts": "^4.0.3",
     "react-typist": "^2.0.4",
     "react-typist-cycle": "^0.1.2",
     "react-typist-loop": "0.0.3",
@@ -30,7 +31,7 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^1.1.0"
   },
   "browserslist": {
     "production": [
