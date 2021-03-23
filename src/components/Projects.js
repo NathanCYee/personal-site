@@ -27,7 +27,7 @@ class Projects extends Component {
                                 enableTransform
                                 style={{margin: '0 auto', width: 400, height: 300}}>
 
-                                <img src={require('../IMG_3668.JPG')}
+                                <img src={require('../IMG_3668.JPG').default}
                                      style={{maxWidth: "100%", maxHeight: "100%"}}/>
 
                                 <div/>
@@ -49,13 +49,13 @@ class Projects extends Component {
                                 enableTransform
                                 style={{margin: '0 auto', width: 400, height: 300}}>
 
-                                <img src={require('../blue-yellow.svg')} style={{maxWidth: '120%', maxHeight: '120%'}}/>
+                                <img src={require('../blue-yellow.svg').default} style={{maxWidth: '120%', maxHeight: '120%'}}/>
 
                                 <div/>
                                 <div/>
                                 <div/>
 
-                                <img src={require('../appfin.svg')}
+                                <img src={require('../appfin.svg').default}
                                      style={{top: '-20%', left: '20%', maxWidth: '130%', maxHeight: '130%'}}/>
 
                                 <p style={{fontSize: '3rem', fontWeight: 'bold', padding: '3rem'}}>
@@ -101,7 +101,7 @@ class Projects extends Component {
                                 enableTransform
                                 style={{margin: '0 auto', width: 400, height: 300}}>
 
-                                <img src={require('../IMG_2568.JPG')}
+                                <img src={require('../IMG_2568.JPG').default}
                                      style={{maxWidth: "100%", maxHeight: "100%"}}/>
 
                                 <div/>
@@ -147,7 +147,7 @@ class Projects extends Component {
                                 enableTransform
                                 style={{margin: '0 auto', width: 400, height: 300}}>
 
-                                <img src={require('../IMG_2568.JPG')}
+                                <img src={require('../4220753.jpg')}
                                      style={{maxWidth: "100%", maxHeight: "100%"}}/>
 
                                 <div/>

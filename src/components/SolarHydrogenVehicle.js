@@ -43,11 +43,11 @@ class Train extends Component {
                                     Our final design utilized the lightest parts possible in order to reduce the mass that the motor had to move. We used flat metal vex parts on the top and standoffs and pillow blocks to mount the wheels. The flat metal pieces had extra screw points which allowed us to mount a standoff for hydrogen or collars and axles to mount solar, making the vehicle a flexible testbed. A gear ratio of 7:3 was implemented so that the wheel could output an optimal speed as well as due to size constraints.
                                 </div>
                                 <div class="col-6">
-                                    <img src={require('../IMG_3600.JPG')} style={{ maxWidth: '100%', maxHeight: '100%' }}/>
+                                    <img src={require('../IMG_3600.JPG').default} style={{ maxWidth: '100%', maxHeight: '100%' }}/>
                                     <p style={{fontSize: '.5rem', color:'#adadad'}}>The final design with the gear ratio showcased and the solar panel mounting bracket attatched</p>
                                 </div>
                                 <div className="col-6">
-                                    <img src={require('../IMG_3571.JPG')}
+                                    <img src={require('../IMG_3571.JPG').default}
                                          style={{maxWidth: '100%', maxHeight: '100%'}}/>
                                     <p style={{fontSize: '.5rem', color:'#adadad'}}>The hydrogen mounting solution attatched.</p>
                                 </div>

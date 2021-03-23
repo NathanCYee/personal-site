@@ -33,7 +33,7 @@ class Winch extends Component {
                         <div class="container">
                             <div class="row">
                                 <div class="col-12">
-                                    <p>&nbsp;&nbsp;The goal of this project was to make a winch using vex parts and a DC
+                                    <p>The goal of this project was to make a winch using vex parts and a DC
                                         motor. The project taught us about gear ratios and how they affect the speed of
                                         the winch as well as how much weight it could pull.
                                     </p>

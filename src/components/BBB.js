@@ -47,7 +47,8 @@ class BBB extends Component {
                             </div>
                             <div class="row">
                                 <div className="col-4">
-                                    <img src={require('../SOW.png')} style={{maxWidth: '100%', maxHeight: '100%'}}/>
+                                    <img src={require('../SOW.png').default}
+                                         style={{maxWidth: '100%', maxHeight: '100%'}}/>
                                 </div>
                                 <div class="col-8">
                                     The statement of work described the timeline for the actions that my group were
@@ -68,20 +69,16 @@ class BBB extends Component {
                                     <b>Server configuration</b>
                                     <ul>
                                         <li>Firewall was disabled - There were no protections whatsoever on the firewall
-                                            to
-                                            prevent malicious traffic
+                                            to prevent malicious traffic
                                         </li>
                                         <li>Mail was still on - Mail has several vulnerabilities which can compromise
-                                            the
-                                            server
+                                            the server
                                         </li>
                                         <li>Directory browsing was on - Users can brute force URLs and find files that
-                                            they
-                                            were not supposed to find
+                                            they were not supposed to find
                                         </li>
                                         <li>Log files were stored publicly - If log files are found, that can compromise
-                                            other
-                                            users IPs and browsing activity.
+                                            other users IPs and browsing activity.
                                         </li>
                                     </ul>
                                     <b>Firewall</b>
@@ -126,12 +123,12 @@ class BBB extends Component {
                                     <ReactGoogleSlides
                                         width={640}
                                         height={480}
-                                        slidesLink="https://docs.google.com/presentation/d/1M8peKOAWeEqU5qKE0p7xN8R-Ri6HjKqXuJNf02o2fWo"
+                                        slidesLink="https://docs.google.com/presentation/d/1x3S3rkWKaCOb1AM_VHkBvu6N3vcfL2YCbO0cKx_TdnI"
                                         showControls
                                     />
                                 </div>
                                 <p style={{fontSize: '.75rem', color: '#adadad'}}>A presentation prepared to describe
-                                    the results of the penetraton test as well as screenshots from the exploits</p>
+                                    the results of the penetration test as well as screenshots from the exploits</p>
                             </div>
 
                             <div className="row">

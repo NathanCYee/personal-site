@@ -13,7 +13,7 @@ class AppFin extends Component {
             <div class="parallax">
                 <div class="fillheight parallax__layer parallax__layer--back jumbotron jumbotron-fluid">
                     <center><div class="container animated fadeIn">
-                        <img class="logo" src={require('../appfin.svg')}/>
+                        <img class="logo" src={require('../appfin.svg').default}/>
                         <h1 class="display-3"  style={{fontWeight: 'bold'}}>AppFin</h1>
                         <div><h5><Badge color="secondary" id="class">Entrepreneurship Project</Badge> <Badge color="secondary">2 Weeks(May 2018)</Badge></h5></div>
                     </div>
@@ -36,7 +36,7 @@ class AppFin extends Component {
                                 </div>
                                 <div class="col-8">
                                     <center>
-                                        <img src={require('../diagram.svg')} style={{ maxWidth: '60%', maxHeight: '60%' }}/>
+                                        <img src={require('../diagram.svg').default} style={{ maxWidth: '60%', maxHeight: '60%' }}/>
                                         <p style={{fontSize: '.5rem', color:'#adadad'}}>Diagram of the app
                                         </p>
                                     </center>

@@ -13,7 +13,7 @@ class Home extends Component {
                     <center>
                         <div class="container animated bounceInUp">
                             <br/>
-                            <img class="logo" src={require('../logo.svg')}/>
+                            <img class="logo" src={require('../logo.svg').default}/>
                             <Typist
                                 className="Typist"
                                 cursor={{show: false}}
@@ -42,7 +42,7 @@ class Home extends Component {
                         <div class="container">
                             <div class="row">
                                 <div class="col-4">
-                                    <img class="image" src={require('../me.jpg')}/>
+                                    <img class="image" src={require('../FullSizeRender.jpeg')}/>
                                 </div>
                                 <div class="col-8">
                                     <h1>Hi, I am Nathan.</h1>
