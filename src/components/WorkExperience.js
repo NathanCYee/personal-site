@@ -115,7 +115,7 @@ class WorkExperience extends Component {
                             <div className="row">
                                 <div className="col-12">
                                     The Engineering Program has given me a Mentor program in my Junior year. My mentor
-                                    was Uwe Liebetrau from bio-rad. My mentor and I worked on skills such as networking,
+                                    was Uwe Liebetrau from Bio-Rad. My mentor and I worked on skills such as networking,
                                     resume building, and college. From my mentor, I learned how to network with other
                                     professionals, write a resume that is effective, and how to find job opportunities
                                     in college. From my mentor’s career, I learned about why he made the decisions he

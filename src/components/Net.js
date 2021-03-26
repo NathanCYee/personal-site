@@ -77,7 +77,7 @@ class Net extends Component {
                                 <div className="col-6">
                                     <img src={require('../zenmap.png')}
                                          style={{maxWidth: '100%', maxHeight: '100%'}}/>
-                                    <p style={{fontSize: '.5rem', color: '#adadad'}}>The results of a enmap scan</p>
+                                    <p style={{fontSize: '.5rem', color: '#adadad'}}>The results of a Zenmap scan</p>
                                 </div>
                             </div>
                             <div className="row">

@@ -47,7 +47,7 @@ class BBB extends Component {
                             </div>
                             <div class="row">
                                 <div className="col-4">
-                                    <img src={require('../SOW.png').default}
+                                    <img src={require('../SOW.png')}
                                          style={{maxWidth: '100%', maxHeight: '100%'}}/>
                                 </div>
                                 <div class="col-8">
